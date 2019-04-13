@@ -1,3 +1,6 @@
 This is LPC1768 USB-Device (HID keyboard,CDC, mouse,..) example for SEGGER Embedded Studio.
 
 Fully free, everybody can build USB Device as me...
+
+You can remove form project for example USB_HID_Keyboard.c file and attach USB_HID_Echo1.c ( or USB_CDC_Echo.c) 
+and build convenient your own USB device. 
