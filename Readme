@@ -5,7 +5,7 @@ Fully free for non-commercial use, everybody can build USB Device as me...
 You can remove form project for example USB_HID_Keyboard.c file and attach USB_HID_Echo1.c ( or USB_CDC_Echo.c) 
 and build convenient your own USB device. 
 
-I use JLink debugger, 
+I use SEGGER JLink debugger, Windows 10-64 or Win 7-64, SEGGER Embedded Studio and old board with LPc1768 controller from receipt printer FPrint-55PTK.
 
 Here I have written some steps how to build this project. 
 
