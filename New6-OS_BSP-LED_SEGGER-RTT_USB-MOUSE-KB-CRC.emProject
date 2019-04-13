@@ -1,0 +1,134 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="New6_LPC1768" target="8" version="2">
+  <project Name="New6_LPC1768">
+    <configuration
+      Name="Common"
+      Target="LPC1768"
+      arm_architecture="v7M"
+      arm_core_type="Cortex-M3"
+      arm_endian="Little"
+      arm_fpu_type="None"
+      arm_interwork="No"
+      arm_linker_heap_size="256"
+      arm_linker_process_stack_size="0"
+      arm_linker_stack_size="256"
+      arm_simulator_memory_simulation_parameter="RX 00000000,00080000,FFFFFFFF;RWX 10000000,00008000,CDCDCDCD"
+      arm_target_device_name="LPC1768"
+      arm_target_interface_type="SWD"
+      c_user_include_directories="$(ProjectDir)/CMSIS_4/CMSIS/Include;$(ProjectDir)/SEGGER;$(ProjectDir)/CMSIS/Device/Include;$(ProjectDir)/BSP/Include;$(ProjectDir)/OS;$(ProjectDir)/Config;$(ProjectDir)/USBD"
+      debug_register_definition_file="XML/LPC178x7x_Registers.xml"
+      debug_target_connection="J-Link"
+      gcc_entry_point="Reset_Handler"
+      linker_memory_map_file="XML/LPC1768_MemoryMap.xml"
+      linker_section_placement_file="$(StudioDir)/targets/Cortex_M/flash_placement.xml"
+      macros="DeviceHeaderFile=CMSIS/Device/Include/LPC17xx.h;DeviceSystemFile=CMSIS/Device/Source/system_LPC17xx.c;DeviceVectorsFile=Source/LPC176x5x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC176x;Target=LPC1768;Placement=Flash"
+      package_dependencies=""
+      project_directory=""
+      project_type="Executable" />
+    <folder Name="CMSIS Files">
+      <file file_name="$(DeviceHeaderFile)" />
+      <file file_name="$(DeviceSystemFile)">
+        <configuration
+          Name="Common"
+          default_code_section=".init"
+          default_const_section=".init_rodata" />
+      </file>
+    </folder>
+    <folder Name="Source">
+      <file file_name="Source/LPC1700_Startup.s" />
+      <file file_name="Source/LPC176x5x_Vectors.s">
+        <configuration Name="Common" file_type="Assembly" />
+      </file>
+      <file file_name="Source/thumb_crt0.s" />
+    </folder>
+    <folder Name="Application" />
+    <folder Name="BSP">
+      <file file_name="BSP/Source/BSP.c" />
+      <file file_name="BSP/Include/JLINKMEM.h" />
+    </folder>
+    <folder Name="OS">
+      <file file_name="OS/OS_Error.c" />
+      <file file_name="OS/Main.c" />
+      <file file_name="OS/libos_v7m_t_le_dp.a">
+        <configuration Name="Release" build_exclude_from_build="Yes" />
+      </file>
+      <file file_name="OS/libos_v7m_t_le_r.a">
+        <configuration Name="Debug" build_exclude_from_build="Yes" />
+      </file>
+    </folder>
+    <folder Name="Config">
+      <file file_name="Config/OS_Config.h" />
+      <file file_name="Config/SEGGER_SYSVIEW_Conf.h" />
+      <file file_name="Config/Global.h" />
+      <file file_name="Config/SEGGER_RTT_Conf.h" />
+    </folder>
+    <configuration
+      Connection="USB 788594195"
+      Name="Debug"
+      STLport="Yes"
+      arm_linker_stack_size="512"
+      build_always_rebuild="No"
+      debug_type_file="$(StudioDir)/bin/STLport.xml"
+      link_include_standard_libraries="Yes"
+      showLog="No"
+      speed="4000" />
+    <configuration
+      Name="Release"
+      arm_library_architecture="v7M"
+      link_standard_libraries_directory="$(StudioDir)/lib" />
+    <folder Name="Setup">
+      <file file_name="Setup/RTOSInit_LPC1768_CMSIS.c" />
+      <file file_name="Setup/JLINKMEM_Process.c" />
+      <file file_name="Setup/OS_ThreadSafe.c" />
+    </folder>
+    <folder Name="SEGGER">
+      <file file_name="SEGGER/SEGGER_SYSVIEW_Config_embOS.c" />
+      <file file_name="SEGGER/SEGGER_SYSVIEW.c" />
+      <file file_name="SEGGER/SEGGER_RTT.c" />
+      <file file_name="SEGGER/SEGGER_RTT_printf.c" />
+      <file file_name="SEGGER/SEGGER_RTT_Syscalls_SES.c" />
+      <file file_name="SEGGER/SEGGER_snprintf.c" />
+      <file file_name="SEGGER/SEGGER_String.c" />
+      <file file_name="SEGGER/SEGGER_SYSVIEW_embOS.c" />
+    </folder>
+    <folder Name="USBD">
+      <file file_name="USBD/libusbd_v7m_t_le_d.a">
+        <configuration Name="Release" build_exclude_from_build="Yes" />
+      </file>
+      <file file_name="USBD/libusbd_v7m_t_le_r.a">
+        <configuration Name="Debug" build_exclude_from_build="Yes" />
+      </file>
+      <file file_name="USBD/USB.h" />
+      <file file_name="USBD/USB_OS_embOS.c" />
+      <file file_name="USBD/USB_ConfigIO.c" />
+      <file file_name="USBD/USB_Config_SEGGER_LPC1768.c" />
+      <file file_name="USBD/BSP_USB.h" />
+      <file file_name="USBD/BSP_USB.c" />
+      <file file_name="USBD/my_USB_Settings.c" />
+      <file file_name="USBD/USB_HID_Keyboard.c" />
+    </folder>
+  </project>
+  <configuration
+    Name="THUMB"
+    Platform="ARM"
+    arm_instruction_set="Thumb"
+    arm_library_instruction_set="Thumb"
+    c_preprocessor_definitions="__THUMB"
+    hidden="Yes" />
+  <configuration
+    Connection="USB 788594195"
+    Name="Debug"
+    arm_architecture="v7M"
+    arm_fp_abi="Soft"
+    arm_simulator_memory_simulation_parameter="RX 00000000,00080000,FFFFFFFF;RWX 10000000,00008000,CDCDCDCD"
+    arm_target_device_name="LPC1768"
+    arm_target_interface_type="SWD"
+    c_preprocessor_definitions="DEBUG=1"
+    c_user_include_directories="."
+    debug_target_connection="J-Link"
+    gcc_debugging_level="Level 3"
+    gcc_optimization_level="None"
+    inherited_configurations="THUMB"
+    link_include_standard_libraries="No" />
+  <configuration Name="Release" c_preprocessor_definitions="" />
+</solution>

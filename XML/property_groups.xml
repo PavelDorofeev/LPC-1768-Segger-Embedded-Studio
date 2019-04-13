@@ -1,0 +1,361 @@
+<!DOCTYPE CrossStudio_Group_Values>
+<propertyGroups>
+  <group short="Target Processor" group="Build Options" long="Select a set of target options" name="Target" default="LPC1777">
+    <groupEntry name="LPC1751" family="LPC175x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00008000;RAM;0x10000000;0x00002000" />
+      <property name="arm_target_device_name" value="LPC1751" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC176x5x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1751_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC17xx.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC17xx.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC176x5x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC175x" />
+      <cdefine name="LPC175x_6x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC175x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1752" family="LPC175x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00010000;RAM;0x10000000;0x00004000" />
+      <property name="arm_target_device_name" value="LPC1752" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC176x5x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1752_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC17xx.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC17xx.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC176x5x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC175x" />
+      <cdefine name="LPC175x_6x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC175x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1754" family="LPC175x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00020000;RAM;0x10000000;0x00004000;RAM;0x2007C000;0x00004000" />
+      <property name="arm_target_device_name" value="LPC1754" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC176x5x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1754_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC17xx.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC17xx.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC176x5x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC175x" />
+      <cdefine name="LPC175x_6x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC175x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1756" family="LPC175x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00040000;RAM;0x10000000;0x00004000;RAM;0x2007C000;0x00004000" />
+      <property name="arm_target_device_name" value="LPC1756" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC176x5x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1756_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC17xx.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC17xx.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC176x5x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC175x" />
+      <cdefine name="LPC175x_6x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC175x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1758" family="LPC175x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00080000;RAM;0x10000000;0x00008000;RAM;0x2007C000;0x00008000" />
+      <property name="arm_target_device_name" value="LPC1758" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC176x5x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1758_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC17xx.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC17xx.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC176x5x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC175x" />
+      <cdefine name="LPC175x_6x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC175x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1759" family="LPC175x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00080000;RAM;0x10000000;0x00008000;RAM;0x2007C000;0x00008000" />
+      <property name="arm_target_device_name" value="LPC1759" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC176x5x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1759_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC17xx.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC17xx.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC176x5x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC175x" />
+      <cdefine name="LPC175x_6x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC175x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1763" family="LPC176x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00040000;RAM;0x10000000;0x00008000;RAM;0x2007C000;0x00008000" />
+      <property name="arm_target_device_name" value="LPC1763" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC176x5x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1763_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC17xx.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC17xx.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC176x5x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC176x" />
+      <cdefine name="LPC175x_6x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC176x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1764" family="LPC176x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00020000;RAM;0x10000000;0x00004000;RAM;0x2007C000;0x00004000" />
+      <property name="arm_target_device_name" value="LPC1764" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC176x5x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1764_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC17xx.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC17xx.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC176x5x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC176x" />
+      <cdefine name="LPC175x_6x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC176x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1765" family="LPC176x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00040000;RAM;0x10000000;0x00008000;RAM;0x2007C000;0x00008000" />
+      <property name="arm_target_device_name" value="LPC1765" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC176x5x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1765_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC17xx.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC17xx.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC176x5x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC176x" />
+      <cdefine name="LPC175x_6x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC176x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1766" family="LPC176x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00040000;RAM;0x10000000;0x00008000;RAM;0x2007C000;0x00008000" />
+      <property name="arm_target_device_name" value="LPC1766" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC176x5x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1766_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC17xx.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC17xx.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC176x5x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC176x" />
+      <cdefine name="LPC175x_6x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC176x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1767" family="LPC176x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00080000;RAM;0x10000000;0x00008000;RAM;0x2007C000;0x00008000" />
+      <property name="arm_target_device_name" value="LPC1767" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC176x5x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1767_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC17xx.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC17xx.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC176x5x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC176x" />
+      <cdefine name="LPC175x_6x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC176x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1768" family="LPC176x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00080000;RAM;0x10000000;0x00008000;RAM;0x2007C000;0x00008000" />
+      <property name="arm_target_device_name" value="LPC1768" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC176x5x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1768_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC17xx.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC17xx.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC176x5x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC176x" />
+      <cdefine name="LPC175x_6x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC176x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1769" family="LPC176x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00080000;RAM;0x10000000;0x00008000;RAM;0x2007C000;0x00008000" />
+      <property name="arm_target_device_name" value="LPC1769" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC176x5x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1769_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC17xx.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC17xx.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC176x5x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC176x" />
+      <cdefine name="LPC175x_6x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC176x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1774" family="LPC177x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00020000;RAM;0x10000000;0x00008000;RAM;0x20000000;0x00002000" />
+      <property name="arm_target_device_name" value="LPC1774" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC178x7x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1774_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC177x_8x.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC177x_8x.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC178x7x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC177x" />
+      <cdefine name="LPC177x_8x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC177x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1776" family="LPC177x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00040000;RAM;0x10000000;0x00010000;RAM;0x20000000;0x00004000" />
+      <property name="arm_target_device_name" value="LPC1776" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC178x7x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1776_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC177x_8x.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC177x_8x.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC178x7x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC177x" />
+      <cdefine name="LPC177x_8x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC177x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1777" family="LPC177x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00080000;RAM;0x10000000;0x00010000;RAM;0x20000000;0x00008000" />
+      <property name="arm_target_device_name" value="LPC1777" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC178x7x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1777_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC177x_8x.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC177x_8x.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC178x7x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC177x" />
+      <cdefine name="LPC177x_8x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC177x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1778" family="LPC177x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00080000;RAM;0x10000000;0x00010000;RAM;0x20000000;0x00008000" />
+      <property name="arm_target_device_name" value="LPC1778" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC178x7x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1778_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC177x_8x.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC177x_8x.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC178x7x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC177x" />
+      <cdefine name="LPC177x_8x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC177x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1785" family="LPC178x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00040000;RAM;0x10000000;0x00010000;RAM;0x20000000;0x00004000" />
+      <property name="arm_target_device_name" value="LPC1785" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC178x7x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1785_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC177x_8x.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC177x_8x.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC178x7x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC178x" />
+      <cdefine name="LPC177x_8x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC178x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1786" family="LPC178x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00040000;RAM;0x10000000;0x00010000;RAM;0x20000000;0x00004000" />
+      <property name="arm_target_device_name" value="LPC1786" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC178x7x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1786_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC177x_8x.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC177x_8x.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC178x7x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC178x" />
+      <cdefine name="LPC177x_8x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC178x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1787" family="LPC178x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00080000;RAM;0x10000000;0x00010000;RAM;0x20000000;0x00008000" />
+      <property name="arm_target_device_name" value="LPC1787" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC178x7x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1787_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC177x_8x.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC177x_8x.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC178x7x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC178x" />
+      <cdefine name="LPC177x_8x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC178x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+    <groupEntry name="LPC1788" family="LPC178x">
+      <property name="arm_architecture" value="v7M" />
+      <property name="arm_core_type" value="Cortex-M3" />
+      <property name="arm_endian" value="Little" />
+      <property name="arm_fpu_type" value="None" />
+      <property name="arm_simulator_memory_simulation_parameter" value="ROM;0x00000000;0x00080000;RAM;0x10000000;0x00010000;RAM;0x20000000;0x00008000" />
+      <property name="arm_target_device_name" value="LPC1788" />
+      <property name="debug_register_definition_file" value="$(PackagesDir)/LPC1700/XML/LPC178x7x_Registers.xml" />
+      <property name="linker_memory_map_file" value="$(PackagesDir)/LPC1700/XML/LPC1788_MemoryMap.xml" />
+      <property name="macros" value="DeviceHeaderFile=$(PackagesDir)/LPC1700/CMSIS/Device/Include/LPC177x_8x.h;DeviceLibraryIdentifier=M3l;DeviceSystemFile=$(PackagesDir)/LPC1700/CMSIS/Device/Source/system_LPC177x_8x.c;DeviceVectorsFile=$(PackagesDir)/LPC1700/Source/LPC178x7x_Vectors.s;DeviceFamily=LPC1700;DeviceSubFamily=LPC178x" />
+      <cdefine name="LPC177x_8x" />
+      <cdefine name="__LPC1700_FAMILY" />
+      <cdefine name="__LPC178x_SUBFAMILY" />
+      <cdefine name="ARM_MATH_CM3" />
+      <cinclude value="$(PackagesDir)/LPC1700/CMSIS/Device/Include" />
+    </groupEntry>
+  </group>
+  <group short="Section Placement" group="Build Options" long="Select a set of options based on section placement." name="Placement" default="Flash">
+    <groupEntry name="Flash">
+      <property name="linker_section_placement_file" value="$(StudioDir)/targets/Cortex_M/flash_placement.xml" />
+      <cdefine name="FLASH_PLACEMENT" value="1" />
+    </groupEntry>
+    <groupEntry name="Flash Vectors In RAM">
+      <property name="linker_section_placement_file" value="$(StudioDir)/targets/Cortex_M/flash_placement.xml" />
+      <cdefine name="FLASH_VECTORS_IN_RAM_PLACEMENT" value="1" />
+      <cdefine name="VECTORS_IN_RAM" value="1" />
+    </groupEntry>
+    <groupEntry name="Flash Copy To RAM">
+      <property name="linker_section_placement_file" value="$(StudioDir)/targets/Cortex_M/flash_to_ram_placement.xml" />
+      <cdefine name="FLASH_COPY_TO_RAM_PLACEMENT" value="1" />
+      <cdefine name="VECTORS_IN_RAM" value="1" />
+    </groupEntry>
+    <groupEntry name="RAM">
+      <property name="linker_section_placement_file" value="$(StudioDir)/targets/Cortex_M/ram_placement.xml" />
+      <cdefine name="RAM_PLACEMENT" value="1" />
+    </groupEntry>
+  </group>
+</propertyGroups>
